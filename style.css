@@ -208,11 +208,6 @@ a:hover { color: #6E4E4A; }
   color: #4A4139;
 }
 
-/* ---------- 3. Slideshow ---------- */
-.spolu {
-  padding: 40px 24px 30px;
-}
-
 .section-head {
   text-align: center;
   margin-bottom: 46px;
@@ -221,64 +216,6 @@ a:hover { color: #6E4E4A; }
   letter-spacing: .38em;
   margin-bottom: 16px;
   display: block;
-}
-
-.stage {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.stage-frame {
-  position: relative;
-  height: clamp(380px, 62vw, 660px);
-  border-radius: 6px;
-  overflow: hidden;
-  background: #EFE7DA;
-  box-shadow: 0 22px 60px -30px rgba(64, 56, 47, .45);
-}
-
-.slide {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0;
-  transition: opacity 1.2s ease;
-}
-.slide.active { opacity: 1; }
-
-.stage-nav {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 46px; height: 46px;
-  border-radius: 50%;
-  border: none;
-  background: rgba(251, 248, 242, .86);
-  color: #40382F;
-  font-size: 20px;
-  box-shadow: 0 4px 14px rgba(64, 56, 47, .18);
-  z-index: 4;
-  cursor: pointer;
-}
-.stage-nav.prev { left: 16px; }
-.stage-nav.next { right: 16px; }
-
-.counter-pill {
-  position: absolute;
-  bottom: 16px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 4;
-  font-family: 'Jost', sans-serif;
-  font-size: 12px;
-  letter-spacing: .18em;
-  color: #FBF8F2;
-  background: rgba(64, 56, 47, .42);
-  backdrop-filter: blur(2px);
-  padding: 6px 14px;
-  border-radius: 999px;
 }
 
 /* ---------- 4. Details ---------- */
