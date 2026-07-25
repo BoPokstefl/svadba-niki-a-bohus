@@ -1,26 +1,32 @@
-# Niki & Bohuš — svadobná stránka 🌿
+# Niki & Bohuš — svadobná stránka 🌸
 
 Táto stránka beží zadarmo cez GitHub Pages.
 
 **Živá stránka:** https://bopokstefl.github.io/svadba-niki-a-bohus/
 
-## Ako pridať fotky do galérie (bez akéhokoľvek programovania)
+## ⚠️ Ešte treba doriešiť
 
-1. Choďte na tento repozitár na GitHub: https://github.com/BoPokstefl/svadba-niki-a-bohus
-2. Otvorte priečinok **images** → **slideshow**.
-3. Kliknite na tlačidlo **Add file** → **Upload files**.
-4. Pretiahnite myšou fotky (JPG, PNG alebo WEBP) do okna prehliadača.
-5. Dole kliknite na zelené tlačidlo **Commit changes**.
-6. O pár sekúnd obnovte stránku (Cmd+R / Ctrl+R) — nové fotky sa objavia v galérii automaticky, v poradí podľa názvu súboru.
+- **Tlačidlo "Potvrdiť účasť" (RSVP)** zatiaľ nikam nevedie (`#rsvp`, len placeholder). Až budete mať odkaz na Google Form, pošlite mi ho a prepojím tlačidlo.
 
-Netreba nič premenovávať ani upravovať kód — stránka si fotky z tohto priečinka načíta sama.
+## Ako vymeniť fotky (bez akéhokoľvek programovania)
+
+V galérii ("spolu") aj v rohoch stránky sa používa 13 fotiek s presnými názvami `images/photos/p01.web.jpg` … `p13.web.jpg`.
+
+1. Choďte na https://github.com/BoPokstefl/svadba-niki-a-bohus
+2. Otvorte priečinok **images** → **photos**.
+3. Kliknite na konkrétnu fotku (napr. `p01.web.jpg`), potom na ceruzku/**Upload** a nahraďte ju novou fotkou **s rovnakým názvom**.
+4. Dole kliknite **Commit changes**.
+
+Ak chcete pridať/ubrať fotky alebo zmeniť poradie, napíšte mi a upravím to za vás.
 
 ## Ako upraviť text (dátum, mená, miesto...)
 
-Ozvite sa mi (Claude) v konverzácii a poviem vám presne čo zmeniť, alebo mi rovno napíšte zmenu a ja upravím súbor `index.html` za vás.
+Napíšte mi v konverzácii čo zmeniť a upravím súbor `index.html`/`style.css` za vás.
 
 ## Technické detaily
 
 - Čistý HTML/CSS/JS, žiadny build proces.
 - Hosting: GitHub Pages (vetva `main`, priečinok `/`).
-- Fotky sa načítavajú dynamicky cez GitHub API, takže netreba upravovať kód pri každom nahratí novej fotky.
+- Dizajn: 7 sekcií (hero, intro, galéria "spolu", detaily, dary, RSVP, footer) podľa handoff dokumentu s watercolour kyticou a polaroid fotkami.
+- Fotky boli skomprimované (JPEG q78) a kytica zmenšená z 12 MB na ~1.7 MB, aby stránka rýchlo načítavala aj na mobile.
+- Zdroj kytice: stock ilustrácia (Freepik) dodaná v návrhu — pred verejným spustením odporúčam overiť licenciu.
