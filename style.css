@@ -81,17 +81,10 @@ a:hover { color: #6E4E4A; }
   pointer-events: none;
   opacity: .95;
 }
-.hero-p14 {
-  top: clamp(16px, 4vh, 55px); left: clamp(4px, 3vw, 50px);
-  width: clamp(115px, 12vw, 175px); aspect-ratio: 3/4;
-  transform: rotate(-11deg);
-  z-index: 0;
-}
 .hero-p15 {
-  top: clamp(75px, 9vh, 115px); left: clamp(28px, 6vw, 95px);
-  width: clamp(115px, 12vw, 175px); aspect-ratio: 3/4;
-  transform: rotate(9deg);
-  z-index: 1;
+  top: clamp(50px, 9vh, 110px); left: clamp(10px, 7vw, 120px);
+  width: clamp(162px, 17.5vw, 257px); aspect-ratio: 3/4;
+  transform: rotate(-9deg);
 }
 .hero-p07 {
   top: clamp(40px, 8vh, 96px); right: clamp(10px, 7vw, 120px);
