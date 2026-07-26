@@ -81,6 +81,13 @@
       <p class="rsvp-copy">Dajte nám prosím vedieť, či prídete, do <span class="card-strong">31. augusta 2026</span>.</p>
 
       <form class="rsvp-form" id="rsvp-form">
+        <label class="rsvp-label" for="rsvp-attend">Zúčastníte sa?<span class="req">*</span></label>
+        <select class="rsvp-input" id="rsvp-attend" name="attend" required>
+          <option value="" disabled selected>Vyberte možnosť</option>
+          <option value="Áno, prídeme 🎉">Áno, prídeme 🎉</option>
+          <option value="Nie, žiaľ nemôžeme">Nie, žiaľ nemôžeme</option>
+        </select>
+
         <label class="rsvp-label" for="rsvp-name1">Vaše meno<span class="req">*</span></label>
         <input class="rsvp-input" id="rsvp-name1" name="name1" type="text" placeholder="Meno a priezvisko" required>
 
@@ -88,13 +95,6 @@
         <input class="rsvp-input" id="rsvp-name2" name="name2" type="text" placeholder="Meno">
         <input class="rsvp-input" id="rsvp-name3" name="name3" type="text" placeholder="Meno">
         <input class="rsvp-input" id="rsvp-name4" name="name4" type="text" placeholder="Meno">
-
-        <label class="rsvp-label" for="rsvp-attend">Zúčastníte sa?<span class="req">*</span></label>
-        <select class="rsvp-input" id="rsvp-attend" name="attend" required>
-          <option value="" disabled selected>Vyberte možnosť</option>
-          <option value="Áno, prídeme 🎉">Áno, prídeme 🎉</option>
-          <option value="Nie, žiaľ nemôžeme">Nie, žiaľ nemôžeme</option>
-        </select>
 
         <button class="rsvp-btn" type="submit">Potvrdiť účasť</button>
       </form>
