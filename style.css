@@ -81,10 +81,17 @@ a:hover { color: #6E4E4A; }
   pointer-events: none;
   opacity: .95;
 }
-.hero-p04 {
-  top: clamp(50px, 9vh, 110px); left: clamp(10px, 7vw, 120px);
-  width: clamp(162px, 17.5vw, 257px); aspect-ratio: 3/4;
-  transform: rotate(-9deg);
+.hero-p14 {
+  top: clamp(30px, 6vh, 80px); left: clamp(6px, 5vw, 90px);
+  width: clamp(130px, 14vw, 205px); aspect-ratio: 3/4;
+  transform: rotate(-11deg);
+  z-index: 0;
+}
+.hero-p15 {
+  top: clamp(130px, 15vh, 195px); left: clamp(70px, 12vw, 190px);
+  width: clamp(130px, 14vw, 205px); aspect-ratio: 3/4;
+  transform: rotate(9deg);
+  z-index: 1;
 }
 .hero-p07 {
   top: clamp(40px, 8vh, 96px); right: clamp(10px, 7vw, 120px);
