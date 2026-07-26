@@ -446,7 +446,27 @@ a:hover { color: #6E4E4A; }
   margin-top: 18px;
 }
 
-/* ---------- Responsive: hide decorative polaroids on narrow screens ---------- */
+/* ---------- Responsive: smaller, tucked-in photos on narrow screens ---------- */
 @media (max-width: 760px) {
-  .polaroid { display: none; }
+  .polaroid { padding: 5px 5px 14px; }
+
+  /* Hero: drop to 2 photos (diagonal), tucked into the true corners */
+  .hero-p07, .hero-p13 { display: none; }
+  .hero-p15 { top: 14px; left: 10px; width: 88px; }
+  .hero-p09 { bottom: 14px; right: 10px; width: 88px; }
+
+  /* Intro */
+  .intro { padding: 90px 20px 150px; }
+  .intro-p01 { top: 14px; left: 10px; width: 88px; }
+  .intro-p10 { bottom: 14px; right: 10px; width: 88px; }
+
+  /* Details */
+  .details { padding: 130px 20px 90px; }
+  .details-p06 { top: 10px; right: 8px; width: 80px; }
+  .details-p03 { bottom: -30px; left: 6px; width: 88px; }
+
+  /* RSVP */
+  .rsvp { padding: 130px 20px 100px; }
+  .rsvp-p08 { top: 12px; left: 8px; width: 80px; }
+  .rsvp-p12 { bottom: 12px; right: 8px; width: 92px; }
 }
