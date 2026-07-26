@@ -312,27 +312,6 @@ a:hover { color: #6E4E4A; }
   text-transform: uppercase;
 }
 
-/* ---------- 5. Gifts ---------- */
-.gifts {
-  position: relative;
-  z-index: 1;
-  padding: 30px 24px 40px;
-  text-align: center;
-  overflow: hidden;
-}
-.gifts .h2-jost { margin-bottom: 28px; }
-
-.gifts-p {
-  max-width: 620px;
-  margin: 0 auto;
-  font-family: 'Jost', sans-serif;
-  font-weight: 300;
-  font-size: clamp(16px, 2.4vw, 19px);
-  line-height: 1.75;
-  color: #4A4139;
-}
-.gifts-p-mt { margin-top: 20px; }
-
 /* ---------- 6. RSVP ---------- */
 .rsvp {
   padding: 120px 24px;
