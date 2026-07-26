@@ -82,14 +82,14 @@ a:hover { color: #6E4E4A; }
   opacity: .95;
 }
 .hero-p14 {
-  top: clamp(30px, 6vh, 80px); left: clamp(6px, 5vw, 90px);
-  width: clamp(130px, 14vw, 205px); aspect-ratio: 3/4;
+  top: clamp(16px, 4vh, 55px); left: clamp(4px, 3vw, 50px);
+  width: clamp(115px, 12vw, 175px); aspect-ratio: 3/4;
   transform: rotate(-11deg);
   z-index: 0;
 }
 .hero-p15 {
-  top: clamp(130px, 15vh, 195px); left: clamp(70px, 12vw, 190px);
-  width: clamp(130px, 14vw, 205px); aspect-ratio: 3/4;
+  top: clamp(75px, 9vh, 115px); left: clamp(28px, 6vw, 95px);
+  width: clamp(115px, 12vw, 175px); aspect-ratio: 3/4;
   transform: rotate(9deg);
   z-index: 1;
 }
