@@ -6,6 +6,7 @@ const RSVP_ENTRY = {
   name3: 'entry.899330535',
   name4: 'entry.268337754',
   attend: 'entry.930120192',
+  allergy: 'entry.1850740416',
 };
 
 const rsvpForm = document.getElementById('rsvp-form');
