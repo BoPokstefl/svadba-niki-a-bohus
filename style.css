@@ -147,8 +147,9 @@ a:hover { color: #6E4E4A; }
 
 .subline {
   font-family: 'Jost', sans-serif;
-  font-size: clamp(13px, 1.9vw, 16px);
-  letter-spacing: .04em;
+  font-size: clamp(10px, 1.4vw, 12px);
+  letter-spacing: .4em;
+  text-transform: uppercase;
   color: #6E635A;
   line-height: 1.6;
 }
