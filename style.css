@@ -462,12 +462,12 @@ a:hover { color: #6E4E4A; }
   .intro-p10 { bottom: 14px; right: 8px; width: 106px; }
 
   /* Details */
-  .details { padding: 148px 20px 90px; }
+  .details { padding: 168px 20px 70px; }
   .details-p06 { top: 10px; right: 6px; width: 96px; }
-  .details-p03 { bottom: -30px; left: 4px; width: 106px; }
+  .details-p03 { display: none; }
 
   /* RSVP */
-  .rsvp { padding: 148px 20px 108px; }
+  .rsvp { padding: 168px 20px 120px; }
   .rsvp-p08 { top: 12px; left: 6px; width: 96px; }
-  .rsvp-p12 { bottom: 12px; right: 6px; width: 110px; }
+  .rsvp-p12 { bottom: 28px; right: 6px; width: 110px; }
 }
