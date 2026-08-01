@@ -1,12 +1,12 @@
 // ---- RSVP form -> Google Form (auto-fills a linked Google Sheet) ----
 const RSVP_ACTION_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSdJ-7PGpOM8EBVRm_5Urb7GAQ_LUkdnp8tCOzj9JRv72aayfQ/formResponse';
 const RSVP_ENTRY = {
-  name1: 'entry.1249784895',
-  name2: 'entry.612239465',
-  name3: 'entry.899330535',
-  name4: 'entry.268337754',
-  attend: 'entry.930120192',
-  allergy: 'entry.1850740416',
+  name1: 'entry.1334363852',
+  name2: 'entry.700450160',
+  name3: 'entry.628855901',
+  name4: 'entry.1495315660',
+  attend: 'entry.1082805061',
+  allergy: 'entry.1916195061',
 };
 
 const rsvpForm = document.getElementById('rsvp-form');
